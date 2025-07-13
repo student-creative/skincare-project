@@ -21,7 +21,7 @@ function App() {
   if (!isLoaded) return <div>Loading...</div>;
 
   return (
-       <div className=''>
+       <div className='overflow-x-hidden'>
       {/* Sticky Navbar - Fixed Position */}
       <div className="navbar w-full h-auto p-5 flex justify-around items-center fixed top-0 left-0 z-50 bg-[#EFF5E1]" data-aos="fade-down" >
         <div className="logo" data-aos="fade-right">
