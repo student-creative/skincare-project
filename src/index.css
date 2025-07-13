@@ -1,0 +1,19 @@
+/* index.css ya tailwind.css me add karo */
+@import "@fontsource/inter/index.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.opacity-gradient {
+  background: linear-gradient(to bottom, rgba(45, 59, 54, 1), rgba(45, 59, 54, 0.3));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+body {
+  overflow-x: hidden;
+}
+html {
+  scroll-behavior: smooth;
+}
