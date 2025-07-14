@@ -229,19 +229,22 @@ function App() {
       </div>
 
       {/* text section with animation */}
-      <div className="p-20 flex justify-center" data-aos="fade-up">
-        <div className="text-skincare w-full h-auto">
-          <p className='text-3xl capitalize text-[#2D3B36] font-inter'>
-            Experience the ultimate in skincare with our expertly formulated products,
-            crafted to nourish, protect, and rejuvenate your skin. Combining the finest
-            natural ingredients with <span className='opacity-40'>advanced science, our collection ensures every
-              skin type can achieve a radiant, healthy glow. Embrace your beauty with
-              confidence every day. Experience the ultimate in skincare with our
-              expertly formulated products, crafted to nourish, protect, and rejuvenate
-              your skin.</span>
-          </p>
-        </div>
-      </div>
+    <div className="p-4 sm:p-10 md:p-20 flex justify-center" data-aos="fade-up">
+  <div className="text-skincare w-full h-auto px-2 sm:px-8 py-4 sm:py-6">
+    <p className="text-base sm:text-lg md:text-2xl lg:text-3xl capitalize text-[#2D3B36] font-inter leading-normal sm:leading-relaxed md:leading-loose text-justify">
+      Experience the ultimate in skincare with our expertly formulated products,
+      crafted to nourish, protect, and rejuvenate your skin.
+      <span className="block mt-3 opacity-60">
+        Combining the finest natural ingredients with advanced science, our collection
+        ensures every skin type can achieve a radiant, healthy glow. Embrace your
+        beauty with confidence every day. Experience the ultimate in skincare with
+        our expertly formulated products, crafted to nourish, protect, and rejuvenate
+        your skin.
+      </span>
+    </p>
+  </div>
+</div>
+
 
       {/* skincare section with animations */}
       <div className="max-w-[1200px] mx-auto px-4 py-20 flex flex-col md:flex-row gap-10 md:gap-24" id='serum'>
